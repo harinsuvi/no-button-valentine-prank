@@ -7,3 +7,7 @@ button.addEventListener('mouseover', () => {
     button.style.left = x + 'px';
     button.style.top = y + 'px';
 });
+
+button.addEventListener('click', () => {
+    alert("Haha! Try again 😉");
+});
